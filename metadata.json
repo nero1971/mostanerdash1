@@ -1,0 +1,6 @@
+{
+  "name": "মস্তানের দেশ ১ - বাপের রাস্তা ও উন্মুক্ত ওপেন ওয়ার্ল্ড",
+  "description": "বাংলাদেশ ভিত্তিক উন্মুক্ত ওপেন ওয়ার্ল্ড অ্যাকশন গেম। পুরো বাংলাদেশের ম্যাপ, নিরাপদ ঘর, পুলিশ ক্যাম্প, হেলিকপ্টার ও সরাসরি কথা বলার সুবিধা।",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

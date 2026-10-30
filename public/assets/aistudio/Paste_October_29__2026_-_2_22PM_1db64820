@@ -1,0 +1,849 @@
+MASTER GAME DEVELOPMENT PROMPT — “আমাদের গ্রাম বাংলা”
+
+A Complete 2D Open-World Bangladeshi Village Adventure Game
+
+Act as a professional 2D open-world game developer, gameplay programmer, game designer, UI/UX designer, and mobile game optimization expert. Build a complete, playable, polished 2D open-world action-adventure game called “আমাদের গ্রাম বাংলা” (Amader Gram Bangla).
+
+Do not create just a concept, mockup, screenshot, static interface, or basic prototype. Build an actual playable game with working mechanics, an explorable world, vehicles, NPCs, missions, interactive buildings, sound effects, mobile controls, and a complete game menu.
+
+The game must be designed primarily for Android mobile phones and must run smoothly in a mobile browser or supported web game environment.
+
+1. GAME IDENTITY AND CORE VISION
+
+Game title: আমাদের গ্রাম বাংলা
+
+English subtitle: Our Village Bangladesh
+
+Genre: 2D Open-World Action, Adventure, Driving, Exploration, and Mission Game.
+
+Setting: A fictional but highly authentic Bangladeshi rural region called রাধানগর জেলা, featuring a large central village called রাধানগর গ্রাম. Treat this as a fictional game setting inspired by rural Bangladesh.
+
+Visual perspective: Beautiful top-down or slightly angled 2D perspective with detailed sprites, layered environments, realistic shadows, animated characters, and a polished game-art style.
+
+The gameplay should take inspiration from the freedom, vehicle exploration, NPC interactions, mission variety, and open-world structure of classic GTA III and GTA II, while using original characters, original assets, and a distinctly Bangladeshi rural setting.
+
+Do not copy copyrighted GTA characters, maps, logos, missions, or assets.
+
+The main experience should feel like exploring a living Bangladeshi village rather than a modern Western city.
+
+2. COMPLETE MAIN MENU
+
+Create a beautiful, animated, professional game-opening screen.
+
+The main menu must contain:
+
+- Play Game
+- Continue Game
+- New Game
+- Settings
+- Mission List
+- Map
+- Phone
+- Vehicle Collection
+- Sound Settings
+- About Game
+- Exit or Return to Main Menu, wherever appropriate
+
+Use large, readable Bengali typography, beautiful rural artwork, animated clouds, swaying trees, birds, and a village road in the background.
+
+The title “আমাদের গ্রাম বাংলা” must be prominently displayed.
+
+The interface should look like a professionally designed mobile game, not a generic website dashboard.
+
+Add smooth menu transitions, button animations, subtle background music, and responsive layouts.
+
+Continue Game must load the last saved progress. New Game must begin a fresh save only after confirmation.
+
+3. THE MAIN CHARACTER
+
+Create an original Bangladeshi male protagonist who lives in Radhanagar village.
+
+The player begins near a small rural home beside a village road, with a simple vehicle available nearby.
+
+The protagonist should have:
+
+- Animated walking in all four directions.
+- Running and stopping animations.
+- Idle animation.
+- Vehicle entering and exiting animations.
+- Interaction animations.
+- Phone usage animation.
+- Mission interaction.
+- Optional sitting or resting animations.
+- Collision with buildings, walls, trees, water, and other solid objects.
+
+The character must move naturally and must never slide uncontrollably, pass through walls, or become stuck inside buildings.
+
+Add a simple character information panel showing health, money, current mission, and selected vehicle when appropriate.
+
+Allow the player to explore freely without immediately forcing a mission.
+
+4. A HUGE OPEN-WORLD BANGLADESHI VILLAGE
+
+Build a large, interconnected 2D open world that extends far beyond the starting village.
+
+The game map should be substantially larger than the visible mobile screen. The camera must follow the player while only displaying a small section of the overall world.
+
+Divide the world into connected areas:
+
+1. Radhanagar Main Village.
+2. Traditional Bengali residential neighborhoods.
+3. Large green paddy fields.
+4. Village market and shopping area.
+5. Riverbank and ferry terminal.
+6. Rural highways and dirt roads.
+7. Fishing village.
+8. School and playground.
+9. Village health center.
+10. Mosque and open community grounds.
+11. Agricultural farms.
+12. Mango, coconut, banana, and jackfruit gardens.
+13. Railway crossing or rural transport junction.
+14. Bus stand and vehicle garage.
+15. Riverside settlement.
+16. Remote countryside and hidden exploration areas.
+
+Connect these areas using dirt roads, paved rural roads, narrow paths, small bridges, and winding village lanes.
+
+The map should include multiple routes, shortcuts, bridges, field boundaries, ponds, canals, and areas that can be discovered through exploration.
+
+Create a coherent world layout. Roads must connect correctly, houses must sit on suitable terrain, rivers must not block essential routes, and buildings must not randomly overlap.
+
+The world should feel handcrafted and geographically consistent.
+
+If the entire world cannot fit in memory, use chunk-based world loading or another efficient world-streaming approach. Load nearby scenery and NPCs while unloading distant nonessential objects.
+
+The player must not see the world ending abruptly at the edge of the mobile screen.
+
+5. AUTHENTIC BANGLADESHI RURAL VISUALS
+
+Every environment must clearly communicate rural Bangladesh.
+
+Include:
+
+- Green paddy fields with different growth stages.
+- Mud houses with tin roofs.
+- Brick houses and small concrete village homes.
+- Bamboo fences and wooden gates.
+- Coconut and palm trees.
+- Banana plants, mango trees, jackfruit trees, and bamboo groves.
+- Ponds containing water lilies and aquatic vegetation.
+- Narrow canals and rural waterways.
+- Village tea stalls.
+- Small grocery shops.
+- Local markets with vegetable stalls.
+- Rice mills and agricultural storage buildings.
+- Small mosques and village schools.
+- Rickshaw parking areas.
+- Hand pumps and tube wells.
+- Fishing nets and boats.
+- Clothes drying in courtyards.
+- Benches, street lamps, signboards, and electric poles.
+- Posters, handwritten advertisements, local notices, and political-style campaign posters.
+- Roadside fruit sellers and mobile vendors.
+- Rural bus stops and small garages.
+
+Use original, detailed, consistent 2D art assets. Buildings must have appropriate proportions, recognizable entrances, shadows, and collision boundaries.
+
+Add decorative environmental details without making the screen excessively crowded.
+
+Avoid random building placement, broken textures, floating objects, mismatched perspectives, and visual glitches.
+
+6. A LIVING VILLAGE WITH NPCS
+
+Populate the world with many non-player characters.
+
+Different NPC types should include:
+
+- Farmers working in fields.
+- Shopkeepers.
+- Tea stall owners.
+- Rickshaw drivers.
+- CNG and auto-rickshaw drivers.
+- Bus drivers.
+- Fishermen.
+- Street vendors.
+- Ice cream sellers.
+- Children walking or playing.
+- Students going to school.
+- Teachers.
+- Village elders.
+- Pedestrians.
+- Mechanics.
+- Police officers.
+- Delivery workers.
+- Boat operators.
+- Market customers.
+
+NPCs must have independent movement and believable behavior.
+
+Implement a lightweight AI system with states such as idle, walking, working, talking, shopping, travelling, reacting, and returning to a routine.
+
+NPCs should follow paths and respect collisions. They must not continuously walk into walls, overlap excessively, or wander into water.
+
+NPCs can have short Bengali dialogue, unique names, daily routines, and simple interaction options.
+
+Example dialogue:
+
+“ভাই, বাজারে যাবেন?”
+
+“এই রাস্তা দিয়ে সোজা গেলে নদীর ঘাট পাবেন।”
+
+“আজকে বাজারে অনেক ভিড়।”
+
+“ধান কাটার লোক লাগবে, কাজ করবেন?”
+
+“চা খাবেন ভাই?”
+
+“আইসক্রিম নেন, ঠান্ডা আইসক্রিম!”
+
+Use natural Bengali phrases and occasional familiar local expressions.
+
+Children should appear only in ordinary, age-appropriate village activities, such as playing, walking, or going to school.
+
+7. COMPLETE VEHICLE SYSTEM
+
+Allow the player to discover, enter, drive, park, and exit different vehicles.
+
+Include:
+
+- Bicycle.
+- Motorcycle.
+- Rickshaw.
+- Battery-powered auto-rickshaw.
+- CNG auto-rickshaw.
+- Small private car.
+- Pickup truck.
+- Agricultural tractor.
+- Local passenger van.
+- Rural bus.
+- Delivery vehicle.
+- Small cargo truck.
+- Fishing boat.
+- Motorboat.
+- Ferry or other suitable water transport.
+
+Vehicles must have unique 2D sprites, suitable dimensions, movement speeds, turning behavior, engine sounds, and collision handling.
+
+When approaching an available vehicle, show a clear “Enter Vehicle” button.
+
+When inside a vehicle:
+
+- Replace walking controls with driving controls.
+- Allow acceleration and braking.
+- Allow steering or directional movement.
+- Show an Exit Vehicle button.
+- Play the appropriate engine sound.
+- Keep the camera centered on the vehicle.
+- Prevent the vehicle from passing through buildings, walls, trees, and other solid objects.
+- Handle road and terrain movement appropriately.
+
+Cars and motorcycles should feel different from bicycles and rickshaws.
+
+Boats must move on suitable water surfaces. Do not allow boats to drive across ordinary fields or roads.
+
+Provide vehicle parking areas, a garage, and a vehicle selection system.
+
+If a vehicle is damaged, implement a simple repair system at a mechanic's shop.
+
+8. PHONE SYSTEM
+
+Add an interactive in-game smartphone that the player can open and close during gameplay.
+
+The phone must have a visually appealing interface designed for mobile screens.
+
+Include these apps:
+
+Contacts: NPC contacts, mission contacts, and important characters.
+
+Calls: Start a simulated in-game call with a short Bengali voice line or text dialogue.
+
+Messages: Receive mission instructions, delivery details, invitations, and notifications.
+
+Map: View the world map and available destinations.
+
+Missions: Review active missions and objectives.
+
+Garage: View owned and unlocked vehicles.
+
+Player Profile: Display money, completed missions, and progress.
+
+Settings: Adjust sound, music, controls, and display preferences.
+
+Notifications: Show mission updates, payments, and new opportunities.
+
+The call feature should work even without a real telephone network. Use simulated calls and original prerecorded audio where available, with text dialogue as a fallback.
+
+The phone should not cover the entire game permanently. It must open as an overlay and close cleanly.
+
+9. MISSION SYSTEM
+
+Create a functional mission engine rather than displaying mission names without gameplay.
+
+Each mission should contain a starting trigger, objective, completion condition, reward, failure condition when appropriate, and progress tracking.
+
+Create at least 15 varied missions, including:
+
+1. First Day in Radhanagar: Learn walking, interaction, and vehicle controls.
+2. Tea Stall Delivery: Deliver tea or goods to a nearby destination.
+3. Village Market Shopping: Purchase and deliver specified items.
+4. Farmer's Request: Transport agricultural supplies.
+5. Rice Delivery: Drive a cargo vehicle to a rice mill.
+6. Ice Cream Seller: Help a vendor deliver products.
+7. School Supplies: Deliver supplies to the village school.
+8. Fisherman's Help: Transport fishing equipment to the riverbank.
+9. Rickshaw Passenger: Take a passenger to a destination.
+10. Market Delivery: Carry packages between several shops.
+11. Lost Item: Search the village for a missing object.
+12. Vehicle Recovery: Find and return a misplaced vehicle.
+13. Village Festival: Collect supplies and visit festival locations.
+14. River Crossing: Use a boat or ferry to reach a destination.
+15. Long-Distance Delivery: Transport goods between distant villages.
+
+Add optional side missions, hidden rewards, time challenges, exploration tasks, and repeatable delivery jobs.
+
+Mission instructions must appear in Bengali.
+
+The mission system must track objectives accurately and reward the player only when the conditions are fulfilled.
+
+Do not create fake completion notifications.
+
+10. GTA-STYLE OPEN-WORLD GAMEPLAY
+
+Create original systems inspired by classic open-world action games:
+
+- Free exploration.
+- Vehicle theft or vehicle borrowing mechanics where appropriate to the fictional world.
+- Civilian reactions to unusual behavior.
+- Police response and a simple wanted-level system.
+- Money and reward economy.
+- Vehicle collection.
+- Shops and garages.
+- Mission contacts.
+- Interactive objects.
+- Collectible items.
+- Hidden locations.
+- Day and night cycle.
+- Weather changes.
+- Character health.
+- Respawn system.
+- Save and load progress.
+- Optional challenges and achievements.
+
+Keep the game focused on village exploration and everyday rural adventures.
+
+If implementing combat or wanted-level mechanics, use original, age-appropriate game systems and provide simple control options. These mechanics must never interfere with the main village exploration experience.
+
+11. SHOPS, MONEY, AND ECONOMY
+
+Add usable village shops and service locations.
+
+Include:
+
+- Tea stalls.
+- Grocery shops.
+- Vegetable markets.
+- Clothing shops.
+- Vehicle garages.
+- Mechanics.
+- Fuel stations.
+- Vehicle dealers.
+- Food stalls.
+- Boat rental points.
+
+The player can earn money by completing missions and participating in activities.
+
+Use money to buy food, repair vehicles, unlock vehicles, purchase selected items, and access optional services.
+
+Create a consistent in-game economy with clearly displayed prices.
+
+Every purchase must validate the player's balance. Do not deduct money if a transaction fails.
+
+12. MINIMAP AND WORLD MAP
+
+A critical feature: the minimap must be small, but the world must be large.
+
+Display a compact minimap in a corner of the screen.
+
+The minimap should show:
+
+- Player or vehicle position.
+- Nearby roads.
+- Nearby buildings.
+- Mission markers.
+- Important destinations.
+- Vehicle or service locations when relevant.
+
+The minimap must update as the player moves and rotates or tracks the camera appropriately.
+
+Create a separate full-screen world map that displays the entire explorable world, major roads, villages, rivers, markets, mission locations, and discovered areas.
+
+Use different symbols for different destination types.
+
+Allow the player to set a waypoint and display directional guidance toward it.
+
+Do not render the entire large world at full detail inside the minimap. Use a scaled map representation for performance.
+
+13. MOBILE TOUCH CONTROLS
+
+Design all controls for Android phones and touchscreens.
+
+Walking controls:
+
+- A responsive virtual joystick or directional pad on the lower-left side.
+- Action and interaction buttons on the lower-right side.
+- Run button.
+- Jump button only if useful for the game's movement design.
+- Phone button.
+- Map button.
+- Vehicle entry or exit button when applicable.
+
+Driving controls:
+
+- Steering controls.
+- Acceleration.
+- Brake or reverse.
+- Vehicle exit.
+- Horn.
+
+Boat controls:
+
+- Steering.
+- Acceleration.
+- Brake or reverse.
+- Exit boat.
+
+All controls must respond to touch immediately and support holding a button for continuous movement.
+
+Controls must not become stuck after a finger slides off the button.
+
+Allow multiple simultaneous touches, such as steering while accelerating.
+
+Adapt the interface to different screen sizes and aspect ratios. Respect device safe areas and prevent accidental browser zooming or page scrolling during gameplay.
+
+The game must never require a physical keyboard to be playable on a phone.
+
+14. AUTHENTIC BANGLADESHI AUDIO
+
+Sound design is one of the most important parts of the game.
+
+Use original or properly licensed audio assets, not random sound effects that do not fit the environment.
+
+Include:
+
+Village ambience
+
+- Birds chirping.
+- Wind passing through trees.
+- Leaves rustling.
+- Distant human conversation.
+- Frogs and insects at appropriate times.
+- Rain falling on tin roofs.
+- Water moving in ponds and canals.
+
+Market ambience
+
+- Busy village market chatter.
+- Shopkeepers calling customers.
+- Vegetable vendors announcing products.
+- Ice cream sellers using recognizable local calls.
+- Tea cups and kettles.
+- Shop activity and footsteps.
+
+Transport sounds
+
+- Rickshaw bells.
+- Bicycle bells.
+- Motorcycle engines.
+- CNG and auto-rickshaw engines.
+- Car horns.
+- Bus engines.
+- Truck sounds.
+- Boat motors.
+- Ferry horns.
+- Vehicle braking and acceleration.
+
+Rural life
+
+- Farmers working.
+- Cows mooing.
+- Goats bleating.
+- Chickens clucking.
+- Ducks quacking.
+- Roosters crowing.
+- Hand pumps.
+- Agricultural machinery.
+- Distant school activity.
+
+Player and gameplay
+
+- Walking and running footsteps.
+- Grass and mud footsteps.
+- Door opening and closing.
+- Object pickup.
+- Coins and money rewards.
+- Mission start and completion.
+- Phone ringing.
+- Incoming message notifications.
+- UI clicks.
+- Vehicle entry and exit.
+
+Music
+
+- Original Bengali rural-inspired background music.
+- Optional light folk-inspired instrumental tracks.
+- Separate driving music.
+- Optional music player with next, previous, play, pause, and volume controls.
+
+Create separate volume controls for music, ambience, vehicles, NPC voices, and interface sounds.
+
+Support mute and unmute.
+
+If an audio file is unavailable, use a suitable procedural sound, a clearly designed fallback, or a silent optional audio event. Never make the game crash because an asset is missing.
+
+Do not imitate copyrighted songs or use unlicensed commercial recordings.
+
+15. IN-GAME RADIO AND MUSIC PLAYER
+
+Add a vehicle radio or music player.
+
+The player should be able to:
+
+- Turn the radio on or off.
+- Change tracks.
+- Pause or resume music.
+- Change volume.
+- Select from available original tracks.
+
+Allow the player to hear music while driving without interrupting engine sounds or important mission audio.
+
+When entering a vehicle, radio behavior should follow the player's saved settings.
+
+16. DAY, NIGHT, AND WEATHER
+
+Create a believable rural day-night cycle.
+
+Morning should have soft sunlight, birds, and village activity.
+
+Afternoon should have bright daylight and active markets.
+
+Evening should have warm sunset lighting and increased roadside activity.
+
+Night should include darker surroundings, moonlight, stars, fireflies where appropriate, and selected lights around homes and shops.
+
+Add optional weather states:
+
+- Clear weather.
+- Cloudy skies.
+- Light rain.
+- Heavy rain.
+- Occasional thunderstorms.
+
+Weather must affect the environment visually and through sound. Rain may produce puddles and darker ground textures.
+
+Do not create visual effects that make roads or characters impossible to see.
+
+17. INTERACTIVE ENVIRONMENTS
+
+The world must not be a static painting.
+
+Make appropriate objects interactive:
+
+- Doors and gates.
+- Shop counters.
+- Benches.
+- Tube wells.
+- Vehicle repair stations.
+- Market stalls.
+- Ferry boarding points.
+- Mission boards.
+- Selected household objects.
+- Collectible items.
+- Telephones or noticeboards where appropriate.
+
+Some buildings may contain enterable interiors, such as selected shops, houses, and garages.
+
+If a building cannot be entered, provide a clear exterior interaction or visual indication rather than a broken doorway.
+
+Use proper collision boxes, interaction ranges, and visible prompts.
+
+18. GRAPHICAL QUALITY AND ANIMATION
+
+The game must be 2D, not 3D.
+
+Use a consistent art direction with high-quality sprites, beautiful terrain tiles, smooth character animation, readable environments, and polished visual effects.
+
+Create:
+
+- Animated water.
+- Swaying trees and grass.
+- Moving clouds.
+- Bird animations.
+- Vehicle movement and wheel animations where practical.
+- Character walking cycles.
+- Animated market activity.
+- Day-night lighting.
+- Rain particles.
+- Dust effects on dirt roads.
+- Water splashes near suitable surfaces.
+- Smooth camera tracking.
+- Clear UI icons.
+- Consistent sprite scale and perspective.
+
+Do not stretch low-resolution assets to unreasonable sizes.
+
+Avoid flickering, overlapping sprites, broken transparency, black rectangles, missing textures, mismatched building perspectives, and objects that float above the ground.
+
+Use appropriate draw ordering so that characters can pass behind trees and in front of or behind buildings as their positions change.
+
+Use sprite atlases or carefully organized sprite sheets when appropriate.
+
+19. SETTINGS MENU
+
+Create a fully functional settings panel.
+
+Include:
+
+- Master volume.
+- Music volume.
+- Ambient sound volume.
+- Vehicle sound volume.
+- NPC voice volume.
+- Graphics quality.
+- Performance mode.
+- Camera sensitivity or movement settings where applicable.
+- Control size.
+- Left-handed control layout.
+- Language selection: বাংলা and English.
+- Minimap visibility.
+- Vibration toggle, if supported.
+- Autosave settings.
+- Reset settings.
+- Return to main menu.
+
+Settings must actually change game behavior. Save suitable preferences between sessions.
+
+All text should use a font that properly supports Bengali characters.
+
+20. SAVE SYSTEM AND PLAYER PROGRESSION
+
+Save important player data:
+
+- Player position.
+- Money.
+- Health.
+- Completed missions.
+- Active mission.
+- Owned vehicles.
+- Unlocked locations.
+- Collected items.
+- Selected settings.
+- Story progression.
+
+Use local storage or IndexedDB when available in the chosen web environment.
+
+Autosave after major events, such as mission completion, vehicle purchase, and other important progression changes.
+
+Add a visible save indicator and safe error handling.
+
+Provide New Game, Continue Game, and Reset Progress options.
+
+Ask for confirmation before deleting saved progress.
+
+If cloud synchronization is unavailable, make it clear that progress is stored locally on the current device.
+
+21. GAME UI AND VISUAL HIERARCHY
+
+During gameplay, keep the screen clean and readable.
+
+Show only the necessary information:
+
+- Compact minimap.
+- Money.
+- Health.
+- Current mission objective.
+- Context-sensitive action buttons.
+- Vehicle speed when driving.
+- Important notifications.
+
+The minimap and HUD must never cover the player's character or block essential controls.
+
+Use readable Bengali text, consistent iconography, clear contrast, smooth transitions, and suitable touch targets.
+
+All menus must be navigable using touch.
+
+22. TECHNICAL ARCHITECTURE
+
+Choose an appropriate 2D game framework that can be implemented and run reliably in the available Google AI Studio development environment.
+
+Prefer a reliable HTML5 Canvas-based engine or a suitable established 2D game framework, such as Phaser, if the environment supports it.
+
+Use a modular architecture separating:
+
+- Main game initialization.
+- World and terrain.
+- Camera.
+- Player movement.
+- NPC behavior.
+- Vehicle physics.
+- Collision detection.
+- Missions.
+- Phone interface.
+- Minimap and world map.
+- Audio manager.
+- UI and menus.
+- Save system.
+- Settings.
+- Asset loading.
+
+Use a fixed or carefully controlled update loop, delta-time-aware movement, efficient rendering, and proper cleanup of input and audio resources.
+
+Use a tilemap or another scalable representation for the large world.
+
+Keep gameplay logic separate from UI rendering wherever practical.
+
+Use reusable systems instead of duplicating logic across every NPC, vehicle, and mission.
+
+Do not depend on Firebase or a backend unless a genuinely required online feature is added later. The initial game must be playable offline after its required assets have loaded, wherever browser limitations permit.
+
+23. PERFORMANCE AND ANDROID OPTIMIZATION
+
+Target smooth performance on ordinary Android phones.
+
+Use:
+
+- Efficient sprite rendering.
+- Camera-based culling.
+- Limited active NPC simulation outside the visible area.
+- Reusable objects where appropriate.
+- Compressed and appropriately sized assets.
+- Optimized collision checks.
+- Lazy loading for distant world sections.
+- Controlled particle counts.
+- Lightweight UI updates.
+- Efficient audio playback.
+- Touch input designed for mobile browsers.
+
+Avoid excessive memory use, unnecessary animation loops, unbounded object creation, and huge assets that slow down loading.
+
+Provide low, medium, and high visual-quality modes where practical.
+
+Prevent accidental page reloads, horizontal page scrolling, and loss of input focus during gameplay.
+
+24. GAME WORLD CONTENT AND VARIETY
+
+Make the world feel different throughout the day.
+
+Markets should become busier during appropriate hours. Farmers should appear in fields. School areas should show activity at suitable times. Some shops may close at night. Roads should contain occasional moving vehicles.
+
+Include decorative posters and Bengali signboards throughout the village.
+
+Use fictional local shop names, road signs, school names, and village landmarks. Avoid using real people's private information.
+
+Give different areas unique scenery and ambient audio so that the world does not feel repetitive.
+
+Add hidden paths, scenic riverbanks, quiet rural courtyards, and distant farmland to encourage exploration.
+
+25. REQUIRED GAMEPLAY FLOW
+
+The complete game should follow this flow:
+
+1. The game opens with a polished loading screen.
+2. The main menu appears.
+3. The player chooses New Game or Continue Game.
+4. A short introduction shows Radhanagar village.
+5. The player appears near the starting house.
+6. The game explains the movement controls.
+7. The player can walk around and explore.
+8. The player can enter an available vehicle.
+9. The player can open the minimap and phone.
+10. The player can talk to nearby NPCs.
+11. The player receives the first mission.
+12. The player completes missions and earns money.
+13. The player unlocks vehicles, locations, and optional activities.
+14. The world remains explorable after the initial missions.
+15. The game saves progress automatically when appropriate.
+
+26. STRICT QUALITY REQUIREMENTS
+
+Do not deliver a static mockup.
+
+Do not create a fake open-world game where only the character moves over a single background image.
+
+Do not create buttons that do nothing.
+
+Do not display missions that cannot be completed.
+
+Do not create vehicles that cannot be entered or controlled.
+
+Do not create a minimap that fails to track the player.
+
+Do not use placeholder boxes for essential game assets when proper drawable assets can be generated or created.
+
+Do not make the entire map visible at once during ordinary gameplay.
+
+Do not create an oversized city environment; the primary world must remain rural and Bangladeshi.
+
+Do not create a 3D game. All core gameplay and visuals must use 2D rendering.
+
+Do not sacrifice functional gameplay for menu decoration.
+
+If a requested feature is too large to complete in one pass, build a working implementation with a clear extension point instead of displaying a fake feature.
+
+Prioritize a stable playable core before expanding secondary features.
+
+27. DEVELOPMENT AND TESTING PROCEDURE
+
+Before finalizing, verify the following:
+
+- The game launches without runtime errors.
+- The main menu works.
+- New Game and Continue Game behave correctly.
+- The character moves in all intended directions.
+- The camera follows the player smoothly.
+- The world is larger than the viewport.
+- Collision detection works.
+- NPCs move and interact correctly.
+- Vehicles can be entered, driven, and exited.
+- Boats remain on water.
+- The minimap tracks the player.
+- The full world map opens correctly.
+- The phone interface opens and closes.
+- Mission objectives and rewards work.
+- Audio settings change the correct audio channels.
+- The radio changes tracks.
+- Bengali text renders correctly.
+- Saving and loading preserve progression.
+- Touch controls work on mobile screens.
+- The layout does not overflow horizontally.
+- The game handles missing assets without crashing.
+- Performance remains acceptable during exploration.
+
+Fix discovered errors rather than merely listing them.
+
+28. FINAL DELIVERY REQUIREMENTS
+
+Create the actual game project and all necessary source files.
+
+Provide:
+
+- A complete working game.
+- Organized source code.
+- All required local assets or working asset-loading logic.
+- A functional main menu.
+- A large explorable rural map.
+- A playable protagonist.
+- Working NPCs.
+- Working vehicles.
+- A functional mission system.
+- A phone and minimap.
+- Audio and music controls.
+- Mobile touch controls.
+- Settings and save/load support.
+- Clear instructions for running and previewing the game in the available environment.
+
+Begin by establishing the playable game architecture, rendering system, map, camera, player movement, collision system, and mobile controls. Then implement the vehicle, NPC, mission, phone, map, audio, and progression systems.
+
+Build, run, test, and correct the actual implementation as far as the available tools permit.
+
+Final objective: Deliver “আমাদের গ্রাম বাংলা” as a beautiful, functional, Bengali-language-friendly 2D open-world rural adventure game in which the player can freely explore a large and lively Bangladeshi village, drive vehicles, interact with villagers, complete missions, listen to authentic rural sounds, use an in-game phone, discover new places, and continue playing with saved progress.
